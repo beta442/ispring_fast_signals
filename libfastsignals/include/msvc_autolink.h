@@ -16,13 +16,13 @@
 #		error this library needs Visual Studio 2017 and higher
 #	elif _MSC_VER < 2000
 #		if defined(_DEBUG) && defined(_WIN64)
-#			pragma comment(lib, "libfastsignalsd-v141-x64.lib")
+#			pragma comment(lib, "libfastsignalsd-v143-x64.lib")
 #		elif defined(_DEBUG)
-#			pragma comment(lib, "libfastsignalsd-v141-x32.lib")
+#			pragma comment(lib, "libfastsignalsd-v143-x32.lib")
 #		elif defined(_WIN64)
-#			pragma comment(lib, "libfastsignals-v141-x64.lib")
+#			pragma comment(lib, "libfastsignals-v143-x64.lib")
 #		else
-#			pragma comment(lib, "libfastsignals-v141-x32.lib")
+#			pragma comment(lib, "libfastsignals-v143-x32.lib")
 #		endif
 #	else
 #		error unknown Visual Studio version, auto-linking setup failed
